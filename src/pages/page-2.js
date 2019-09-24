@@ -2,14 +2,20 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Post from "../components/Post"
+import SideBar from "../components/SideBar"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <div className="wrapper">
+      <div className="posts">
+        <Post />
+        <Post />
+        <Post />
+      </div>
+      <SideBar />
+    </div>
+    <Link to="/">Go to home page</Link>
   </Layout>
 )
 
