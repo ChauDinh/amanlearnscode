@@ -13,6 +13,18 @@ const IndexPage = () => (
         <Post />
         <Post />
         <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
       </div>
       <SideBar />
     </div>

@@ -6,4 +6,5 @@
 
 .posts {
   margin-right: 1.0875rem;
+  flex-grow: 1;
 }
